@@ -164,14 +164,19 @@ www.google.*##html.QVCmK:style(overflow: auto !important;)
 !! It is just fonts ||gstaticadssl.l.google.com^
 
 ! YouTube
-youtube.com,youtube-nocookie.com###player-ads
-youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##.iv-branding
-youtube.com,youtube-nocookie.com##div#player-ads
-!||googlevideo.com/videoplayback$removeparam=ip
+youtube.com###clarify-box
+youtube.com###consent-bump
+youtube.com###content > .style-scope > .ytd-compact-promoted-item-renderer
+youtube.com###country-code
+youtube.com###masthead-ad
+youtube.com###merch-shelf
+youtube.com###offer-module
+youtube.com###ticker.ytd-masthead
+youtube.com###voice-search-button
+youtube.com##+js(cookie-remover, PREF)
+youtube.com##.ytp-ad-progress-list
+youtube.com##div#masthead-ad
+youtube.com##iron-overlay-backdrop
 ||youtube.com/api/stats
 ||youtube.com/sw.js_data
 ||ytimg.com$removeparam=sigh
