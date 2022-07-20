@@ -190,11 +190,6 @@ youtube.com,youtube-nocookie.com##div#player-ads
 ||ytimg.com$removeparam=sigh
 ||ytimg.com$removeparam=sqp
 ||ytimg.com$removeparam=v
-	!! YouTube Experimental
-||consent.google.*^$3p
-||consent.youtube.com^$3p
-! We don't need any suggestion
-||suggestqueries-clients6.youtube.com^
 
 ! Discord
 discord.com##.colorDefault-22HBa0
