@@ -163,31 +163,6 @@ www.google.*##html.QVCmK:style(overflow: auto !important;)
 ! Experimental
 !! It is just fonts ||gstaticadssl.l.google.com^
 
-! YouTube
-youtube.com###clarify-box
-youtube.com###consent-bump
-youtube.com###content > .style-scope > .ytd-compact-promoted-item-renderer
-youtube.com###country-code
-youtube.com###masthead-ad
-youtube.com###merch-shelf
-youtube.com###offer-module
-youtube.com###ticker.ytd-masthead
-youtube.com###voice-search-button
-youtube.com##+js(cookie-remover, PREF)
-youtube.com##.ytp-ad-progress-list
-youtube.com##div#masthead-ad
-youtube.com##iron-overlay-backdrop
-||youtube.com/api/stats
-||youtube.com/sw.js_data
-||ytimg.com$removeparam=sigh
-||ytimg.com$removeparam=sqp
-||ytimg.com$removeparam=v
-	!! YouTube Experimental
-||consent.google.*^$3p
-||consent.youtube.com^$3p
-! We don't need any suggestion
-||suggestqueries-clients6.youtube.com^
-
 ! Discord
 discord.com##.colorDefault-22HBa0
 discord.com##.quickswitcher-35bYg4
